@@ -508,6 +508,7 @@ libavfilter_optional_sources = {
   'sierpinski_filter' : files('vsrc_sierpinski.c'),
   'signalstats_filter' : files('vf_signalstats.c'),
   'signature_filter' : files('vf_signature.c'),
+  'signature_cuda_filter' : files('vf_signature_cuda.c'),
   'silencedetect_filter' : files('af_silencedetect.c'),
   'silenceremove_filter' : files('af_silenceremove.c'),
   'sinc_filter' : files('asrc_sinc.c'),
